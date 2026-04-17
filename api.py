@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://innoflow.study.sensetime.com/v1/apiserver/facial-expression'
+url = 'https://example.com'
 def facial_expression(path:str):
     files = {
         'file': open(path, 'rb')

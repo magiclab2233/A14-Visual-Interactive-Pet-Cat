@@ -71,7 +71,6 @@ A14-视觉交互智能宠物猫/
 ### 文件说明
 
 - **`face.py`**：程序入口。负责初始化 `Picamera2`，启动后台识别线程，并在检测到 `happy` 表情时调用舵机控制函数。
-- **`api.py`**：封装了远程表情识别接口 `https://innoflow.study.sensetime.com/v1/apiserver/facial-expression`，接收本地图片路径并返回主导情绪字符串。
 - **`servo.py`**：底层硬件控制。包含 `servo_control_slow()` 等函数，用于安全、平滑地驱动 SG90 舵机。
 
 ---
@@ -135,9 +134,7 @@ python3 face.py
 
 ## 许可证与声明
 
-本项目为 **SenseTime InnoFlow 青少年 AI 创意项目** 参赛作品，仅供学习与交流使用。项目代码与文档的版权归原作者所有。
 
 - 技术文档参考：`CKC14 机器猫.pdf`
-- 原内部代码仓库：`https://gitlab.bj.sensetime.com/innoflow/opencat`
 
 如有任何问题或改进建议，欢迎提交 Issue 或 Pull Request。
