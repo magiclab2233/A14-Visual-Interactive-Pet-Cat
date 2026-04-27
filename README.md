@@ -1,5 +1,9 @@
 # A14 视觉交互智能宠物猫
 
+![视觉交互机器猫](https://raw.githubusercontent.com/magiclab2233/A14-Visual-Interactive-Pet-Cat/master/assets/A14_视觉交互机器猫.gif)
+
+
+
 基于树莓派（Raspberry Pi）与视觉表情识别技术的智能互动机器猫。当摄像头捕捉到用户笑容时，机器猫会自动挥动手臂回应，实现有趣且自然的人机交互体验。
 
 ---
